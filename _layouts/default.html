@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body>
+	{% include navigation.html %}
+    
+    {{ content }}
+    
+    {% include footer.html %}
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="/assets/jquery/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

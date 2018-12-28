@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: El club
+  link: /pages/about.html
+- name: On som?
+  link: /pages/where.html
+- name: Serveis
+  link: /pages/services.html
+- name: Contacteu
+  link: /pages/contact.html
